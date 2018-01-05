@@ -25,15 +25,27 @@ public class Readfile {
     
     public static void main(String[] args){
         File file = new File("D:/¸ÅÂÊ.txt");
-        List<String> itDate=new ArrayList<String>();
-//        String[] arrayStr=txt2String(file).split("\\s+");
-//        for (int i=1;i<arrayStr.length;i=i+2){
-//        		itDate.add(arrayStr[i]);
+        List<String> itData=new ArrayList<String>();
+        List<String> itMondate=new ArrayList<String>();
+        String[] arrayStr=txt2String(file).split("\\s+");
+//        for (String i:arrayStr){
+//        	System.out.println(i);
+//        }
+        System.out.println(arrayStr.length);
+//        for (int i=2;i<arrayStr.length;i=i+2){
+//        		itData.add(arrayStr[i]);
 //        	}
-//        for(String m:itDate){
+//        for (int i=1;i<arrayStr.length;i=i+2){
+//        	itMondate.add(arrayStr[i]);
+//    	}
+//        for(String m:itMondate){
 //        	System.out.println(m);
 //        }
-        	System.out.println(txt2String(file));
+//        System.out.println(itMondate.size());
+//        for(String m:itData){
+//        	System.out.println(m);
+//        }
+//        System.out.println(itData.size());
         }
     }
 
