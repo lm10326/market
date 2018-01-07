@@ -36,10 +36,10 @@ public class Readfile {
         for (int i=1;i<arrayStr.length;i=i+2){
         	itMondate.add(arrayStr[i]);
     	}
-        for(String m:itMondate){
-        	System.out.println(m);
-        }
-        System.out.println(itMondate.size());
+//        for(String m:itMondate){
+//        	System.out.println(m);
+//        }
+//        System.out.println(itMondate.size());
 //        for(String m:itData){
 //        	System.out.println(m);
 //        }
