@@ -7,7 +7,7 @@ import java.io.FileInputStream;
 import java.io.FileReader; 
 import java.util.*;
 public class Readfile {
-	
+	//读取文件信息
 	public static String txt2String(File file){
         StringBuilder result = new StringBuilder();
         try{
