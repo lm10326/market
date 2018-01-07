@@ -28,20 +28,18 @@ public class Readfile {
         List<String> itData=new ArrayList<String>();
         List<String> itMondate=new ArrayList<String>();
         String[] arrayStr=txt2String(file).split("\\s+");
-//        for (String i:arrayStr){
-//        	System.out.println(i);
-//        }
-        System.out.println(arrayStr.length);
-//        for (int i=2;i<arrayStr.length;i=i+2){
-//        		itData.add(arrayStr[i]);
-//        	}
-//        for (int i=1;i<arrayStr.length;i=i+2){
-//        	itMondate.add(arrayStr[i]);
-//    	}
-//        for(String m:itMondate){
-//        	System.out.println(m);
-//        }
-//        System.out.println(itMondate.size());
+        //获取当天的数据
+        for (int i=2;i<arrayStr.length;i=i+2){
+        		itData.add(arrayStr[i]);
+        	}
+        //获取当天的日期
+        for (int i=1;i<arrayStr.length;i=i+2){
+        	itMondate.add(arrayStr[i]);
+    	}
+        for(String m:itMondate){
+        	System.out.println(m);
+        }
+        System.out.println(itMondate.size());
 //        for(String m:itData){
 //        	System.out.println(m);
 //        }
