@@ -25,8 +25,8 @@ public class Readfile {
     
     public static void main(String[] args){
         File file = new File("D:/概率.txt");
-        List<String> itData=new ArrayList<String>();
-        List<String> itMondate=new ArrayList<String>();
+        ArrayList<String> itData=new ArrayList<String>();
+        ArrayList<String> itMondate=new ArrayList<String>();
         String[] arrayStr=txt2String(file).split("\\s+");
         //获取当天的数据
         for (int i=2;i<arrayStr.length;i=i+2){
